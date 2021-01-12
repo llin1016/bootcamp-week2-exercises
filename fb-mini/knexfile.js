@@ -4,6 +4,7 @@ require('dotenv').config({
   path: path.join(__dirname, '.env'),
 })
 
+console.log(process.env.DB_DATABASE)
 
 // Default Knex settings
 module.exports = {
